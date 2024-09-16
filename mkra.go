@@ -17,7 +17,7 @@ import (
 	"time"
 
 	"github.com/buptmiao/parallel"
-	"github.com/zer-far/roulette"
+	"https://github.com/Makarasoeurng1/Ddoscat"
 )
 
 var (
