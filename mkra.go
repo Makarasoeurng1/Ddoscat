@@ -127,13 +127,7 @@ func get() {
 		fmt.Println(err)
 	}
 
-		q.Header.Set("User-Agent", headersUseragents[rand.Intn(len(headersUseragents))])
-		q.Header.Set("Cache-Control", "no-cache")
-		q.Header.Set("Accept-Charset", acceptCharset)
-		q.Header.Set("Referer", headersReferers[rand.Intn(len(headersReferers))]+buildblock(rand.Intn(5)+5))
-		q.Header.Set("Keep-Alive", strconv.Itoa(rand.Intn(10)+100))
-		q.Header.Set("Connection", "keep-alive")
-		q.Header.Set("Host", host)
+	
 
 	req.Header.Set("User-Agent", roulette.GetUserAgent())
 	req.Header.Add("Cache-Control", "no-cache") // Creates more load on web server
