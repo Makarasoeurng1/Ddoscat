@@ -17,7 +17,7 @@ import (
 	"time"
 
 	"github.com/buptmiao/parallel"
-	""
+	"github.com/zer-far/roulette"
 )
 
 var (
